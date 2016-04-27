@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is the layout for the Specification page, This layout is the first layout that the users see.
+
+For now, this layout uses a simple relative layout. This allows for all of the items to be
+easily placed on the page.
+
+The colour for the background has also been set to one of the "default" values that we have set for this app
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGrey">
+
+    <!--
+    This is the image view... This is the main image that is displayed on the screen
+    This image has had some hard codded values for the width, height, margin left and margin right
+
+    The image for this is under the src : @drawable/spec_page_main_image
+    -->
+
+    <!--
+    The next three Image views display the same image.
+    These display white boxes... These will simply hold some key information of the cars
+    This information within these boxes will also change once the slide changes
+
+    Just like the main image, these all have hard codded widths, heights and margin lefts
+    These views do have one different element however. They are set to margin top...
+
+    These have been set to margin top because they have been hard codded to be positioned
+    underneath the main image that is displayed above.
+
+    **
+       All three of these have been given the same dimensions...
+       If one is changed, change all three to match.
+    **
+    -->
+
+    <!--
+    This is the last image view for this page
+    This is the image that displays the line with the text that says find out more
+
+    This is here to inform the users that they are able to find out more about the car
+    that is there in front of them.
+
+    As on this page it became too complicated to change this view into a clickable object it has
+    just been set as a normal image for now. The on click function is added by an invisible button
+    placed over the top of this image. This can be found below this.
+    -->
+
+    <!--
+    This is the button which takes the users to the new activity
+
+    This shows the users more information about the car that is in front of them
+    This button is invisible so it doesn't overlap the findoutmore image.
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Factory Handover"
+        android:id="@+id/textView11"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="150dp" />
+
+
+
+</RelativeLayout>

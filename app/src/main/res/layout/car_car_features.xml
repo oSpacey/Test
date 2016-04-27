@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This is the car features xml file is what is displayed to the users
+This file is only displayed once the car features button on the Tab_Vehicle page has been pushed
+
+A relative layout has been used for now to make sure that everything can be placed easily...
+However soon the layouts will change to fit everything in a more efficient way
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGrey">
+
+    <!--
+    Below is the textView that is displayed onto the xml file
+
+    ** android:layout_width="wrap_content" - This wraps the content, which means that the size of this depends on the size of the text
+    ** android:layout_height="wrap_content" - This wraps the content, which means that the size of this depends on the size of the text
+    ** android:textAppearance="?android:attr/textAppearanceLarge" - This sets the appearance of the text to large
+    ** android:text="Car Features" - This is the text that gets shown to the users
+    ** android:id="@+id/textView2" - This is the ID for the text... This gives us more options to the textView if we wish to add them
+    ** android:layout_centerVertical="true" - This centers the vertical position of the text
+    ** android:layout_centerHorizontal="true" - This centers the horizontal position of the text
+    ** android:textSize="150dp" - This sets the size of the text to 150
+    ** android:textColor="@color/white" - This sets the colour of the text to white
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Car Features"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="150dp"
+        android:textColor="@color/white"/>
+
+    <!--
+    Below is the button that takes the users back to the page that they were on before they clicked
+    the button to open the new page
+
+    ** android:layout_width="wrap_content" - This wraps the context, which means that the size of this depends on the size of the button
+    ** android:layout_height="wrap_content" - This wraps the context, which means that the size of this depends on the size of the button
+    ** android:text="Back" - This is the text that is displayed to the users
+    ** android:id="@+id/carFeaturesBkBtn" - This is the ID of the button... this allows us to create a listener and have something happen once it has been clicked
+    ** android:layout_alignParentTop="true" - This aligns the parent to the top of the layout
+    ** android:layout_centerHorizontal="true" - This centers the button horizontally on the page
+    ** android:textSize="90dp" - This is the text size
+    ** android:background="@null" - This sets the background of the button colour to nothing so it makes it easier to blend in with the scene
+    ** android:textColor="@color/white" - This sets the colour of the text to white
+    -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/carFeaturesBkBtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="90dp"
+        android:background="@null"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

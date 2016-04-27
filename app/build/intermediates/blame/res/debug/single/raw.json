@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\raw\\test.mp4",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\raw\\test.mp4"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\raw\\movie.mp4",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\raw\\movie.mp4"
+    }
+]

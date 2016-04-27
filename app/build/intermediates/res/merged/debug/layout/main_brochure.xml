@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGrey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submitBtn"
+            android:textSize="50dp"
+            android:onClick="submit"
+            android:layout_marginBottom="141dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Email"
+            android:id="@+id/textView"
+            android:textSize="40dp"
+            android:textColor="@color/backgroundGrey"
+            android:layout_above="@+id/emailText"
+            android:layout_alignLeft="@+id/emailText"
+            android:layout_alignStart="@+id/emailText" />
+
+        <EditText
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailText"
+            android:layout_marginBottom="57dp"
+            android:textSize="40dp"
+            android:layout_above="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions"
+            android:id="@+id/textView4"
+            android:textSize="40dp"
+            android:textColor="@color/backgroundGrey"
+            android:layout_above="@+id/scrollView"
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignStart="@+id/scrollView" />
+
+        <ScrollView android:layout_height="200dp"
+            android:layout_width="1000dp"
+            android:id="@+id/scrollView"
+            android:layout_marginLeft="749dp"
+            android:layout_marginStart="749dp"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:textSize="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:textColor="@color/black"/>
+        </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:id="@+id/textView5"
+            android:textSize="40dp"
+            android:textColor="@color/backgroundGrey"
+            android:layout_above="@+id/editText"
+            android:layout_alignLeft="@+id/scrollView"
+            android:layout_alignStart="@+id/scrollView" />
+
+        <EditText
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_above="@+id/submitBtn"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_marginBottom="27dp"
+            android:textSize="40dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/lightGrey"
+        android:id="@+id/frameLayout">
+
+        <TextView
+            android:layout_width="1500dp"
+            android:layout_height="450dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="650S Brochure"
+            android:id="@+id/textView6"
+            android:textSize="150dp"
+            android:layout_marginRight="308dp"
+            android:layout_marginEnd="308dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="204dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lightGrey"
+        ></RelativeLayout>
+
+</RelativeLayout>

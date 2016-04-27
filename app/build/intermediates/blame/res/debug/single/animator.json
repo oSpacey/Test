@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\animator\\ui_animation_out.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\animator\\ui_animation_out.xml"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\animator\\ui_animation_in.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\animator\\ui_animation_in.xml"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\animator\\main_up.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\animator\\main_up.xml"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\animator\\main_down.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\animator\\main_down.xml"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\animator\\out_from_right.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\animator\\out_from_right.xml"
+    }
+]

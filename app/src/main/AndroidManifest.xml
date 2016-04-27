@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This is the Manifest...
+This is where all of the pages get called and loaded...
+The package is set, so that the application knows which folder it should be looking in
+for all of the class for each page.
+
+The MAIN application part loads most of the pages. This is why there isn't as many
+applications declared within this section. The MAIN application has tabs which sorts
+out loading the main pages within its own class. This class is the Tab_Main class.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.id2013_03.mclaren">
+
+    <!--
+        Below is the MAIN application. This is what is launched once the app is started.
+
+        // APPLICATION SETTINGS \\
+        * android:allowBackup="true" - Allows the application to back up restore and keep the infrastructure
+        * android:icon="@mipmap/ic_launcher" - The image for the icon on the app menu
+        * android:label="@string/app_name" - Places the app name along the top of the application (The label has been disabled for now)
+        * android:supportsRtl="true" - This means that the application supports right to left styled windows / Views
+        * android:theme - This sets the theme for the application... The theme can change on different applications
+
+        // ACTIVITY SETTINGS \\
+        * android:name=".Login_Page.User_Login" - This is the call for the first activity which in this case is the Loging page
+        * android:screenOrientation - As this app is going to be only used for landscape viewing... The view page is set to landscape
+
+        // INTENT SETTINGS \\
+        * action android:name="android.intent.action.MAIN" - This sets this activity to the main. You can set any activity to main if you wish.
+        * category android:name="android.intent.category.LAUNCHER" - This makes sure that the activity is launched on startup
+        -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name="com.example.id2013_03.startProject.Main.Vehicle_Specification"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        Below is the activity for the find out more page
+
+        This has a couple of the same features as the main activity however, where it is only a side activity it doesn't need as much
+        functionality. This is because all of the main "important" functions have already been setup within the Tab_Main.
+
+        In this activity you can see that
+        "" category android:name="android.intent.category.DEFAULT" ""
+        This is set to default so that it can load as a normal page.
+        If this gets set to Launcher just like the main activity the app will crash. This is because
+        it is trying to launch basically two apps at once.
+
+        This activity also has a function
+        "" android:noHistory="true" ""
+        This is for memory on the device... This has been setup so that the app can carry on running smoothly
+        for the users without any problems.
+        -->
+
+        <activity
+            android:name="com.example.id2013_03.startProject.Car_MoreInfo.FindOutMore"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        Below is the activity for the Thank you page
+
+        This page loads up once the login_car has clicked the submit button on the brochure page.
+
+        This activity has one different function... This app uses a different theme style.
+        The file has been under - res - values - styles - styles.
+
+        This theme makes it so that rather then loading up a whole new activity it displays a small window
+        that pops up ontop of the Tab_Main view. It also allows for the users to click outside of the
+        window to close the small pop up application window.
+
+        To find the window width size and more functionality go to the Brochure_ThankYouPage class
+        -->
+        <activity
+            android:name="com.example.id2013_03.startProject.Brochure.Brochure_ThankYouPage"
+            android:theme="@style/AppTheme.PopUpTheme"
+            >
+        </activity>
+
+        <!--
+        Activity for the car dealers to login
+        This Activity can only be accessed by holding down on the McLaren logo for a few seconds
+        -->
+        <activity
+            android:name="com.example.id2013_03.startProject.Login_Page.User_Login"
+            android:noHistory="true"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.catagory.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        Activity for the car selection page
+        This only appears once the dealers have successfully logged in
+        -->
+        <activity
+            android:name="com.example.id2013_03.startProject.Login_Page.User_PickCar"
+            android:noHistory="true"
+            >
+
+            <intent-filter>
+                <action android:name="com.example.id2013_03.mc_laren.User_Page" />
+                <category android:name="android.intent.catagory.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <!--
+        This is the activity for the Car Features
+
+        This activity is loaded by clicking on the Car Features button that is displayed on the Tab_Vehicle
+        page.
+        -->
+        <activity android:name="com.example.id2013_03.startProject.Car_Page.Car_Car_Features"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+
+
+        <activity android:name="com.example.id2013_03.startProject.Tabbed_Pages.Tab_Main"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name="com.example.id2013_03.startProject.Exclusivity_Pages.Bespoke_Aesthetics"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name="com.example.id2013_03.startProject.Exclusivity_Pages.Factory_Handover"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name="com.example.id2013_03.startProject.Vehicle_Overview_Pages.Design"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name="com.example.id2013_03.startProject.Vehicle_Overview_Pages.Media_Main"
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+
+
+        <!--
+        This is the activity for the F1 Technology
+
+        This activity is loaded by clicking on the F1 Technology button that is displayed on the Tab_Vehicle
+        page.
+        -->
+        <activity android:name="com.example.id2013_03.startProject.Car_Page.Car_F1_tech"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        This is the activity for the Car Options
+
+        This activity is loaded by clicking on the Car Options button that is displayed on the Tab_Vehicle
+        page.
+        -->
+        <activity android:name="com.example.id2013_03.startProject.Car_Page.Car_Options"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        This is the activity for the Special Operations
+
+        This activity is loaded by clicking on the Special Operations button that is displayed on the Tab_Vehicle
+        page.
+        -->
+        <activity android:name="com.example.id2013_03.startProject.Car_Page.Car_Special_Operations"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        Activity for the full Image gallery
+        This is only displayed once an image has been click within the gallery
+        -->
+        <activity android:name="com.example.id2013_03.startProject.Vehicle_Overview_Pages.FullImageActivity"
+            android:screenOrientation="landscape"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.id2013_03.startProject.Tabbed_Pages.Spec_Full_Image"
+                  android:screenOrientation="landscape"
+                  android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
+

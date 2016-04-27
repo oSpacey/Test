@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mc_Laren</string>
+    <string name="login_text">Login Page</string>
+    <string name="userName_text">User Name</string>
+    <string name="userPassword_text">Password</string>
+    <string name="attempts">Attempts</string>
+    <string name="loginUser">Login</string>
+    <string name="second_Login">Login Succesful</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This page is for the main functionality of the app
+This page simply sets up the layout of the pages allowing for the UI to stay in place
+keep everything simple and it also makes it much faster for processing
+Making it flow smoother when users are interacting with the app
+
+ NOTE: There are no buttons, images or other elements of the app on this page
+        This is simply due to loading times on the app
+        If all functionality was on this page
+        the app would run much. much slower
+
+        If you wish to add anymore elements to one or any of the other pages please
+        do so in there location under
+        res > layout
+
+        Only change the "ViewerPage" section of this page and not the "TabLayout"
+        Otherwise this will cause problems for the users when they try to slide
+        from page to page
+
+
+Below, a relative layout has been used...
+This is the best layout for this style because it allows objects to be positioned wherever
+on this page. Other layouts mean that it could lock to different elements of the page and can cause
+some problems when it comes to displaying on the device.
+        -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.id2013_03.mc_laren.MainActivity">
+
+    <!--
+    Above is the layouts attributes...
+
+    xmlns:android="http://schemas.android.com/apk/res/android" - Is the file path/ name
+
+    xmlns:app="http://schemas.android.com/apk/res-auto" - " ^^ "
+
+    xmlns:tools="http://schemas.android.com/tools" - " ^^ "
+
+    android:layout_width="match_parent" - How the layout fits onto the page.. Matching its parent. In this case the whole screen
+
+    android:layout_height="match_parent" " ^^ "
+
+    android:paddingBottom="@dimen/activity_vertical_margin" - The distance from the bottom of the page
+
+    android:paddingLeft="0dp" - Distance from the left of the screen
+
+    android:paddingRight="0dp" - Distance from the right of the screen
+
+    android:paddingTop="0dp" - Distance from the top of the screen
+
+    *** All of the padding settings need to be left. They seem pointless because they are at 0dp. However,
+        If this is changed it then doesn't cover the whole of the screen. Please do not remove
+
+    tools:context="com.example.id2013_03.mc_laren.Tab_Main" - Includes all of the content that is within the main activity
+
+    -->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/darkGrey"
+        app:paddingEnd="-1dp"
+        app:paddingStart="-1dp"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/darkRed"
+        app:tabIndicatorHeight="8dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white" />
+
+    <!--
+    Above is the layout for the "Menu" Created.
+    This is under custom layout, so if you need to add another you can find it there.
+    The menu works by tabs. Meaning that the page be be swiped or clicked. This makes the loading time
+    much fast and smoother for the users when interacting with the app.
+
+    android:id="@+id/tabLayout" - This is the ID set for the layout. Meaning that it can be called anywhere else in the app for different functionality
+
+    android:layout_width="match_parent" - This matches the parents width. So in this case it matches the width of our relative layout
+
+    android:layout_height="100dp" - This is a manual height setting. This is entered manually as it is only needed as a small tool bar.
+
+    android:layout_alignParentTop="true" - This aligns the bar to the top of its parent... i.e the top of the app
+
+    android:layout_centerHorizontal="true" - Centers the position of the tool bar
+
+    android:background="@color/darkGrey" - Sets the color of the background. Colour is taken from a function under res > values > colors
+
+    app:paddingEnd="-1dp" - This is the padding from each tab. -1 allows the text to have slightly more room and be slightly larger for the users
+
+    app:paddingStart="-1dp" - " ^^ "
+
+    app:tabGravity="fill" - This fills the tab bar... Meaning that it will fill what it can. If there is 20 tabs it will fit all tabs onto the bar
+
+    app:tabIndicatorColor="@color/darkRed" - Sets the colour of the indicator... ** The bar that shows up underneath the text **
+
+    app:tabIndicatorHeight="8dp" - This height of the tab indicator... Can be changed for a more reasonable height
+
+    app:tabMode="fixed" - This makes the tabs fixed and none movable
+
+    app:tabSelectedTextColor="@color/white" - Sets the colour of the tab that is selected... Default is blue, hence why the change
+
+    app:tabTextColor="@color/white" - Set the colour of the tabs text that is displayed to the users
+
+    -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabLayout"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Logo"
+        android:src="@drawable/main_logo"
+        android:layout_marginRight="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_above="@+id/viewPager"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--
+    Above is the "page view" this is where all of the elements for each page will be placed.
+    This viewer is used differently however. It is basically a place holder.
+    Meaning that it places the information that is placed on the individual pages and puts that information
+    into the viewPager part of the page. This is displayed underneath the tab menu and doesn't cross over...
+
+    android:id="@+id/viewPager" - This is the Id for the viewPager
+
+    android:layout_width="wrap_content" - This wraps the content. It is set to wrap because we don't want it any larger than what is displayed on each page
+
+    android:layout_height="wrap_content" - This wraps the content. It is set to wrap because we don't want it any larger than what is displayed on each page
+
+    android:layout_below="@+id/tabLayout" - This sets the viewPage below the tabLayout... This is an example of when the Id settings come in handy
+
+    android:layout_centerHorizontal="true" - This centralises the viewPage
+
+    -->
+
+</RelativeLayout>
