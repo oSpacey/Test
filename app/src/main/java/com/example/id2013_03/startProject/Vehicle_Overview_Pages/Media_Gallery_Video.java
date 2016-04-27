@@ -27,7 +27,7 @@ public class Media_Gallery_Video extends Fragment {
 
 
         VideoView testVid = (VideoView)view.findViewById(R.id.video_player_view);
-        String filePath = "android.resource://com.example.id2013_03.mclaren/"+R.raw.movie;
+        String filePath = "android.resource://com.example.id2013_03.mclaren/"+R.raw.newMov;
 
         Bitmap thumb = ThumbnailUtils.createVideoThumbnail(filePath, MediaStore.Images.Thumbnails.MICRO_KIND);
 
@@ -45,7 +45,7 @@ public class Media_Gallery_Video extends Fragment {
         testVid.setMinimumHeight(height);
         testVid.setMediaController(mediaController);
         testVid.setVideoPath(filePath);
-        //testVid.start();
+        testVid.start();
 
 
 

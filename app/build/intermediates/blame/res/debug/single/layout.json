@@ -200,12 +200,12 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
-        "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\main_activity.xml"
-    },
-    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_spec_image_full.xml",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\tab_spec_image_full.xml"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_activity.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\main_activity.xml"
     },
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\car_car_features.xml",

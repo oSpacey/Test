@@ -12,11 +12,12 @@ import com.example.id2013_03.mclaren.R;
 // The public class for this page app..
 // this holds all of the functionality
 // For example a click on one of the buttons by the users
-public class Car_Car_Features extends AppCompatActivity{
+public class Car_Car_Features extends AppCompatActivity {
     // Setting global variables...
     // These can be called anywhere within this page of the code
     // Storing all of them in one place making it easier to follow
     Button featBtn;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
