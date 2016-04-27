@@ -12,10 +12,9 @@ import com.example.id2013_03.mclaren.R;
 import com.example.id2013_03.startProject.Vehicle_Overview_Pages.Design;
 import com.example.id2013_03.startProject.Vehicle_Overview_Pages.Media_Main;
 
-/**
- * Created by ID2013-03 on 18/04/2016.
- */
+
 public class Tab_Vehicle_Overview extends Fragment {
+    // Declaring variables
     Button mediaBtn;
     Button designBtn;
 
@@ -24,6 +23,7 @@ public class Tab_Vehicle_Overview extends Fragment {
         // This is also what places and fills the container on the page
         View rootView = inflater.inflate(R.layout.tabbed_vehicle_overview, container, false);
 
+        //
         designBtn = (Button) rootView.findViewById(R.id.designBtn);
         mediaBtn = (Button) rootView.findViewById(R.id.mediaBtn);
 
