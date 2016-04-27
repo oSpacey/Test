@@ -33,25 +33,21 @@
         android:layout_height="wrap_content"
         android:text="Bespoke Aesthetics"
         android:id="@+id/BespokeBtn"
+        android:background="@null"
+        android:textSize="70dp"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/textView12"
-        android:layout_toEndOf="@+id/textView12"
-        android:layout_marginLeft="236dp"
-        android:layout_marginStart="236dp"
-        android:background="@null"
-        android:textSize="70dp" />
+        android:layout_toEndOf="@+id/textView12" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Factory Handover"
         android:id="@+id/FactoryBtn"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/start"
-        android:layout_alignEnd="@+id/start"
-        android:layout_marginRight="434dp"
-        android:layout_marginEnd="434dp"
         android:background="@null"
-        android:textSize="70dp" />
+        android:textSize="70dp"
+        android:layout_alignTop="@+id/BespokeBtn"
+        android:layout_alignRight="@+id/start"
+        android:layout_alignEnd="@+id/start" />
 
 </RelativeLayout>

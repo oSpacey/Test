@@ -63,9 +63,10 @@ The colour for the background has also been set to one of the "default" values t
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Vehicle Overview"
         android:id="@+id/textView11"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="150dp" />
+        android:textSize="150dp"
+        android:layout_marginTop="258dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"

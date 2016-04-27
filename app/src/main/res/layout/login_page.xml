@@ -9,13 +9,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/login_text"
         android:id="@+id/textView8"
+        android:layout_marginTop="53dp"
+        android:textSize="70dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="201dp"
-        android:layout_marginStart="201dp"
-        android:layout_marginTop="129dp"
-        android:textSize="70dp" />
+        android:layout_toLeftOf="@+id/loginAttempts"
+        android:layout_toStartOf="@+id/loginAttempts" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,13 +21,13 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/userName_text"
         android:id="@+id/textView9"
-        android:layout_marginTop="169dp"
+        android:layout_marginTop="99dp"
         android:textSize="60dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginEnd="95dp"
         android:layout_below="@+id/textView8"
-        android:layout_toLeftOf="@+id/userPassword"
-        android:layout_toStartOf="@+id/userPassword"
-        android:layout_marginRight="96dp"
-        android:layout_marginEnd="96dp" />
+        android:layout_toLeftOf="@+id/userName"
+        android:layout_toStartOf="@+id/userName" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -93,8 +91,8 @@
         android:layout_height="wrap_content"
         android:text="@string/loginUser"
         android:id="@+id/LoginBtn"
+        android:layout_marginTop="122dp"
+        android:textSize="50sp"
         android:layout_below="@+id/loginAttempts"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="169dp"
-        android:textSize="50sp" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

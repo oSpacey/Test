@@ -18,7 +18,7 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="1500dp"
+                android:layout_height="1300dp"
                 android:text="Heritage Image"
                 android:id="@+id/button"
                 android:layout_weight="1"
@@ -26,11 +26,12 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="1500dp"
+                android:layout_height="1300dp"
                 android:text="Heritage Info"
                 android:id="@+id/button2"
                 android:layout_weight="1"
-                android:textSize="60dp"/>
+                android:textSize="60dp"
+                android:layout_column="34" />
         </TableRow>
     </TableLayout>
 </RelativeLayout>

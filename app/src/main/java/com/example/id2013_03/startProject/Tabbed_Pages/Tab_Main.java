@@ -11,6 +11,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.example.id2013_03.startProject.Main.Vehicle_Specification;
@@ -33,10 +35,10 @@ public class Tab_Main extends AppCompatActivity {
     // This function is protected
     // This means that what happens here, nothing can be changed
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        // Overrides everything and is only called once the app has been created
-        // Or started up
+    public void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.vehicle_specification);
         // This is setting the view
         // The view is simply this one we are in now...
         // It is set to here because of how everything is pulled into this file.
