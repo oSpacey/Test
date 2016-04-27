@@ -23,28 +23,34 @@ public class Tab_Vehicle_Overview extends Fragment {
         // This is also what places and fills the container on the page
         View rootView = inflater.inflate(R.layout.tabbed_vehicle_overview, container, false);
 
-        //
+        // Taking the button variables and finding the correct ID for them
         designBtn = (Button) rootView.findViewById(R.id.designBtn);
         mediaBtn = (Button) rootView.findViewById(R.id.mediaBtn);
 
+        // Setting the onClick listener for the design button
         designBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Getting the activity that we are currently in and the activity we want to change to
                 Intent i = new Intent(getActivity(), Design.class);
+                // Changing the activity
                 startActivity(i);
 
             }
         });
 
+        // Setting the onClick listener for the media button
         mediaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Getting the activity that we are currently in and the activity we want to change to
                 Intent i = new Intent(getActivity(), Media_Main.class);
+                // Changing the activity
                 startActivity(i);
 
             }
         });
-
+        // Returning the view
         return rootView;
 
     }
