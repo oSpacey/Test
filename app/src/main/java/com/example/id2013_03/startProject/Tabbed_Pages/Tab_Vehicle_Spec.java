@@ -59,6 +59,9 @@ public class Tab_Vehicle_Spec extends Fragment {
         // Placing the layout into the rootView variable
         // This is also what places and fills the container on the page
         View rootView = inflater.inflate(R.layout.tabbed_vehicle_specs, container, false);
+        ImageView image = (ImageView)rootView.findViewById(R.id.imageView);
+        image.setImageResource(R.drawable.bg_small);
+        image.setScaleType(ImageView.ScaleType.CENTER_CROP);
 
         // Getting / Creating the grid view from the layout and finding the ID of this grid view
         gridView = (GridView) rootView.findViewById(R.id.spec_gridView);
@@ -80,93 +83,9 @@ public class Tab_Vehicle_Spec extends Fragment {
                 i.putExtra("id", position);
                 // Displays the new Activity
                 startActivity(i);
-
             }
         });
-
-        // Finding the image switcher that is placed within the current xml file
-        imageSwitcher = (ImageSwitcher) rootView.findViewById(R.id.imageSwitcher);
-        // Storing the animation for the imageSwitcher into variables
-        // Set to a simple slide in and out
-        slide_in_left = AnimationUtils.loadAnimation(getActivity(), android.R.anim.slide_in_left);
-        slide_out_right = AnimationUtils.loadAnimation(getActivity(), android.R.anim.slide_out_right);
-        // Setting the animation for the imageSwitcher using the variables created before
-        imageSwitcher.setInAnimation(slide_in_left);
-        imageSwitcher.setOutAnimation(slide_out_right);
-        // Placing the images within the imageSwitcher
-        imageSwitcher.setFactory(new ViewSwitcher.ViewFactory() {
-            @Override
-            public View makeView() {
-                // Setting up a new image view for every image that gets added / created
-                // This allows for more images to be added without adding any extra code or issues
-                imageView = new ImageView(getActivity());
-                // Setting the scale type for the image
-                // Fitting the image into the imageSwitcher view that has been created
-                imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
-                // Setting the parameters for the ImageSwitcher, This is just so that it can't be overridden.
-                // Keeps all of the images the same and correct size for the layout of the page
-                LayoutParams params = new ImageSwitcher.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
-                // Setting the parameters to the image view...
-                imageView.setLayoutParams(params);
-
-                // Returning the image view, so that everything can be created / displayed
-                // If this is deleted and error will occur
-                return imageView;
-            }
-        });
-
-        // Setting up a handler and storing it within a variable
-        mHandler = new Handler();
-        // Setting up a runnable activity, this keeps an "eye" on what is going on within the page
-        // ** USED TO AUTOMATICALLY CHANGE THE IMAGES ** \\
-        mUpdateResults = new Runnable() {
-            public void run() {
-                // Calling a separate void
-                // Making calculations easier
-                AnimateSlideShow();
-            }
-        };
-
-        // Setting a integer variable called delay and setting this to 0
-        int delay = 0;
-        // Setting a integer variable called period and setting this to 5000
-        int period = 5000;
-        // Taking the variable timerAnimate and declaring a new timer to be initiated
-        timerAnimate = new Timer();
-        // Taking the timerTask variable and declaring a new TimerTask to be initiated
-        timerTask = new TimerTask() {
-            public void run() {
-                // Taking the "post" handler results and updating them each time this class is run / called
-                mHandler.post(mUpdateResults);
-            }
-        };
-        // Taking the timerAnimate variable and setting the fixed rate to the speed that the imageSwitcher
-        // will switch through the images that have been declared
-        timerAnimate.scheduleAtFixedRate(timerTask, delay, period);
-        // Returning the view so everything can be created and no errors are shown
         return rootView;
-    }
-    // Separate void for the imageSwitcher to change automatically
-    // Created to make the calculations easier + easier to follow
-    public void AnimateSlideShow()
-    {
-        // Setting the current image resource and collecting the current position of this with currIndex
-        imageSwitcher.setImageResource(imageResources[currIndex]);
-
-        // Checking what the current position is set to
-        // If the image is not equal to the image resource length -1
-        // Then the position or * "currIndex" * is set to 0
-        // and the imageSwitcher looks for the first image that is stored
-        if (currIndex == imageResources.length - 1) {
-            currIndex = 0;
-            imageSwitcher.setImageResource(imageResources[currIndex]);
-        } else {
-            // If the current index is not equal to 0
-            // The image resource adds by 1... this keeps going up until it hits that last image
-            // Once the last image has been reached, it then goes back to the beginning of this if statement
-            // and starts to loop the images through once again
-            imageSwitcher.setImageResource(imageResources[++currIndex]);
-        }
     }
 
 }

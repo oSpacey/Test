@@ -4,29 +4,62 @@
     api-level="22"
     density="mdpi"
     format="7"
-    timestamp="30785946858133" >
+    timestamp="14162119841209"
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="177" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="70" />
     <task
         name="verifier"
-        duration="0" />
+        duration="11" />
 
     <artifact
-        location="J:\Test\Test\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="J:\Test\Test\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
 
-    <build timestamp="30785946858133" >
+    <build timestamp="6589678508362" >
         <artifact
             location="J:\Test\Test\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="11709988132227"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="14162119841209"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

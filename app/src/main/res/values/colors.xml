@@ -21,6 +21,7 @@
     <item name = "darkRed" type = "color"> #FFCC0000 </item>
     <item name="lighterGrey" type = "color">#cecece</item>
     <item name = "lightGrey" type = "color"> #b3b3b3 </item>
+    <item name = "whiteGrey" type = "color"> #d7d7d7 </item>
     <item name = "darkGrey" type = "color"> #404040 </item>
     <item name = "white" type = "color"> #FFFF </item>
     <item name = "backgroundGrey" type = "color"> #7F7F7F </item>
@@ -48,6 +49,7 @@
         <item>@color/white</item>
         <item>@color/lighterGrey</item>
         <item>@color/backgroundGrey</item>
+        <item>@color/whiteGrey</item>
     </integer-array>
 
 </resources>

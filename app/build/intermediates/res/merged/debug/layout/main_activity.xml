@@ -68,7 +68,7 @@ some problems when it comes to displaying on the device.
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="75dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@color/darkGrey"
@@ -117,23 +117,25 @@ some problems when it comes to displaying on the device.
 
     -->
 
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="36dp"
+        android:id="@+id/Logo"
+        android:src="@drawable/main_logo"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="69dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp" />
+
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tabLayout"
         android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/Logo"
-        android:src="@drawable/main_logo"
-        android:layout_marginLeft="39dp"
-        android:layout_marginStart="39dp"
-        android:layout_above="@+id/viewPager"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
     <!--
     Above is the "page view" this is where all of the elements for each page will be placed.
