@@ -72,8 +72,8 @@ The colour for the background has also been set to one of the "default" values t
             />
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             >
 
@@ -87,7 +87,8 @@ The colour for the background has also been set to one of the "default" values t
                 android:layout_toStartOf="@+id/imageView"
                 android:textAlignment="center"
                 android:layout_gravity="center"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                />
 
             <ImageView
                 android:layout_width="10dp"

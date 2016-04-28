@@ -1,6 +1,8 @@
 package com.example.id2013_03.startProject.Tabbed_Pages;
 
+import android.annotation.TargetApi;
 import android.content.Context;
+import android.os.Build;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -81,6 +83,7 @@ public class Spec_Adapter extends BaseAdapter {
         return 0;
     }
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     // Function for setting the Image view within each section of the grid view
     public View getView(int position, View convertView, ViewGroup parent)

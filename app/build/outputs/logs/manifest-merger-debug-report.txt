@@ -15,6 +15,7 @@ ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:13:1-295:12
 		INJECTED from J:\Test\Test\app\src\main\AndroidManifest.xml
 application
 ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:35:5-294:19
+MERGED from [com.android.support:cardview-v7:23.1.1] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.0] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.0.0-alpha1] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.0.0] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\AndroidManifest.xml:22:5-20
@@ -178,6 +179,7 @@ ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:283:9-292:20
 		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:283:19-97
 uses-sdk
 INJECTED from J:\Test\Test\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:23.1.1] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.0.0] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:24.0.0-alpha1] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:design:23.0.0] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\AndroidManifest.xml:20:5-43

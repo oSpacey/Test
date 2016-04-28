@@ -26,28 +26,8 @@ import java.util.TimerTask;
 // Class for the main activity that happens on this page...
 // This extends fragment which means it works differently to a page that extends AppCompatActivity
 public class Tab_Vehicle_Spec extends Fragment {
-    // Private variables that can only be called within this class
-    // Placed here to make it easier to keep track of
-    private Handler mHandler;
-    private Runnable mUpdateResults;
-    private Timer timerAnimate;
-    private TimerTask timerTask;
 
-    // Variables that are used through this class
-    ImageSwitcher imageSwitcher;
-    ImageView imageView;
-    Animation slide_in_left, slide_out_right;
     GridView gridView;
-
-    // Integer string variable
-    // Stores all of the images that are needed within a variable
-    int imageResources[] = {
-            R.drawable.android,
-            R.drawable.android,
-            R.drawable.android,
-    };
-
-    // Integer variable for the index of each image / object
     int currIndex;
     @Override
     // The view that is created once that the page has been opened.
