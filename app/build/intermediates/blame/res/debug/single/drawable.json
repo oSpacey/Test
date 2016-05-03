@@ -92,16 +92,16 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_small.jpg",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\bg_small.jpg"
     },
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_big.jpg",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\bg_big.jpg"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",

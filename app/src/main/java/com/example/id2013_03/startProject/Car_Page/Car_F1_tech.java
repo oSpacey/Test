@@ -27,7 +27,7 @@ public class Car_F1_tech extends AppCompatActivity {
         // Collecting the information from the button that is placed within the page
         // It checks which view the app is currently on and places this into a variable called f1Tech
         // It also stores the ID that was set for this button within the xml
-        f1Tech = (Button) findViewById(R.id.f1TechBkBtn);
+        //f1Tech = (Button) findViewById(R.id.f1TechBkBtn);
         // Taking the name of the button that was set and setting an on click listener
         // This is so that if the button does get pressed "something" will happen
         f1Tech.setOnClickListener(new View.OnClickListener() {

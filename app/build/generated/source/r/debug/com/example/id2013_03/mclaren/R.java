@@ -2265,6 +2265,7 @@ containing a value of this type.
         public static final int Logo=0x7f0f007a;
         public static final int OpBtn=0x7f0f0082;
         public static final int SpecOpBtn=0x7f0f0081;
+        public static final int TwoTabbed=0x7f0f0069;
         public static final int action0=0x7f0f0084;
         public static final int action_bar=0x7f0f0055;
         public static final int action_bar_activity_content=0x7f0f0000;
@@ -2300,7 +2301,6 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f0f0029;
         public static final int clip_vertical=0x7f0f002a;
         public static final int collapseActionView=0x7f0f0031;
-        public static final int content=0x7f0f009e;
         public static final int contentPanel=0x7f0f0046;
         public static final int custom=0x7f0f004a;
         public static final int customPanel=0x7f0f0049;
@@ -2317,27 +2317,26 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f0f003c;
         public static final int expandableListView1=0x7f0f0070;
         public static final int expanded_menu=0x7f0f004c;
-        public static final int f1TechBkBtn=0x7f0f0069;
         public static final int f1TechBtn=0x7f0f007f;
         public static final int fill=0x7f0f002b;
         public static final int fill_horizontal=0x7f0f002c;
         public static final int fill_vertical=0x7f0f001f;
-        public static final int findOutMore=0x7f0f00a7;
+        public static final int findOutMore=0x7f0f00a9;
         public static final int fixed=0x7f0f0035;
         public static final int frameLayout=0x7f0f007d;
-        public static final int fullGalleryBk=0x7f0f00a0;
-        public static final int full_image_view=0x7f0f009f;
-        public static final int gridview=0x7f0f00a1;
+        public static final int fullGalleryBk=0x7f0f00a2;
+        public static final int full_image_view=0x7f0f00a1;
+        public static final int gridview=0x7f0f00a3;
         public static final int home=0x7f0f0004;
         public static final int homeAsUp=0x7f0f000e;
         public static final int icon=0x7f0f0040;
         public static final int ifRoom=0x7f0f0032;
         public static final int image=0x7f0f003d;
         public static final int imageView=0x7f0f009c;
-        public static final int imageView2=0x7f0f00a5;
-        public static final int imageView3=0x7f0f00a4;
-        public static final int imageView4=0x7f0f00a3;
-        public static final int imageView5=0x7f0f00a6;
+        public static final int imageView2=0x7f0f00a7;
+        public static final int imageView3=0x7f0f00a6;
+        public static final int imageView4=0x7f0f00a5;
+        public static final int imageView5=0x7f0f00a8;
         public static final int info=0x7f0f008f;
         public static final int left=0x7f0f0020;
         public static final int line1=0x7f0f0089;
@@ -2398,6 +2397,7 @@ containing a value of this type.
         public static final int submitBtn=0x7f0f007c;
         public static final int submit_area=0x7f0f0060;
         public static final int tabLayout=0x7f0f0079;
+        public static final int tabLayoutTest=0x7f0f009e;
         public static final int tabMode=0x7f0f000c;
         public static final int text=0x7f0f008e;
         public static final int text2=0x7f0f008c;
@@ -2422,9 +2422,11 @@ containing a value of this type.
         public static final int useLogo=0x7f0f0013;
         public static final int userName=0x7f0f0074;
         public static final int userPassword=0x7f0f0076;
-        public static final int video_player_view=0x7f0f00a2;
+        public static final int video_player_view=0x7f0f00a4;
         public static final int viewPager=0x7f0f007b;
+        public static final int viewPagerVertTest=0x7f0f009f;
         public static final int view_offset_helper=0x7f0f0009;
+        public static final int viewpager=0x7f0f00a0;
         public static final int withText=0x7f0f0034;
         public static final int wrap_content=0x7f0f0037;
     }
@@ -2502,11 +2504,12 @@ containing a value of this type.
         public static final int tabbed_heritage=0x7f04003e;
         public static final int tabbed_vehicle_overview=0x7f04003f;
         public static final int tabbed_vehicle_specs=0x7f040040;
-        public static final int vehicle_overview_design=0x7f040041;
-        public static final int vehicle_overview_media_image_full=0x7f040042;
-        public static final int vehicle_overview_media_images=0x7f040043;
-        public static final int vehicle_overview_media_video=0x7f040044;
-        public static final int vehicle_specification=0x7f040045;
+        public static final int test=0x7f040041;
+        public static final int vehicle_overview_design=0x7f040042;
+        public static final int vehicle_overview_media_image_full=0x7f040043;
+        public static final int vehicle_overview_media_images=0x7f040044;
+        public static final int vehicle_overview_media_video=0x7f040045;
+        public static final int vehicle_specification=0x7f040046;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

@@ -4,18 +4,18 @@
     api-level="22"
     density="mdpi"
     format="7"
-    timestamp="32908519349817"
+    timestamp="32267193887025"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="202" />
+        duration="143" />
     <task
         name="instant-run-dex"
-        duration="323" />
+        duration="250" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="19" />
     <task
         name="verifier"
         duration="1" />
@@ -24,14 +24,27 @@
         location="J:\Test\Test\app\build\intermediates\reload-dex\debug\classes.dex"
         type="RELOAD_DEX" />
 
-    <build timestamp="30873062975554" >
+    <build timestamp="28329989447150" >
         <artifact
             location="J:\Test\Test\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="32743358241292"
+        timestamp="29738872469199"
         verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="29762059066051" >
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="31662009548833" >
         <artifact
             location="J:\Test\Test\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
@@ -39,21 +52,18 @@
             location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
         <artifact
-            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
             location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="32842450021256"
-        verifier="COMPATIBLE" >
+        timestamp="31837730988081"
+        verifier="CLASS_ADDED" >
         <artifact
-            location="J:\Test\Test\app\build\intermediates\builds\debug\32842450021256\classes.dex"
-            type="RELOAD_DEX" />
+            location="J:\Test\Test\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
     </build>
     <build
-        timestamp="32908519349817"
+        timestamp="32267193887025"
         verifier="COMPATIBLE" >
         <artifact
             location="J:\Test\Test\app\build\intermediates\reload-dex\debug\classes.dex"

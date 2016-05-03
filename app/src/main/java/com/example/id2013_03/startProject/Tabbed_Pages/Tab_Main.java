@@ -5,11 +5,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -21,7 +24,7 @@ import com.example.id2013_03.startProject.Login_Page.User_Login;
 // this holds all of the functionality
 // Calling all of the pages and processing what happens on each page
 // For example a click on one of the buttons by the users
-public class Tab_Main extends AppCompatActivity {
+public class Tab_Main extends FragmentActivity {
     // Global variables..
     // These can be used in any of the functions that have been created below
     TabLayout tabLayout;
@@ -50,6 +53,7 @@ public class Tab_Main extends AppCompatActivity {
         // that is stored within the ViewPager function on that page.
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
+
 
         // The ID for the McLaren logo
         // This has been set so that it is an easy "home" button
@@ -83,6 +87,7 @@ public class Tab_Main extends AppCompatActivity {
         });
 
 
+
         // These are the tabLayout functions
         // These just like the ViewPager functions get the information that is stored under each tab...
         // In this case it is simply just the text for now
@@ -96,12 +101,14 @@ public class Tab_Main extends AppCompatActivity {
             // These gets the place of the tabs to work out where the under bar needs to be placed
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+
             }
 
             @Override
             // This checks the Unselected tabs
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+
             }
 
             // this is a function for if the users go back to the same tab
@@ -122,7 +129,7 @@ public class Tab_Main extends AppCompatActivity {
     // This is a private class that is used for the tabs...
     // This is a private class because it is nested within another class but
     // is not the main class function
-    private class CustomAdapter extends FragmentPagerAdapter {
+    private class CustomAdapter extends FragmentStatePagerAdapter {
         // Creating a private string that is only for this class
         // This string stores the names of each of the tabs that I have named.
         // These tab names are then stored within the variable fragments
@@ -144,6 +151,7 @@ public class Tab_Main extends AppCompatActivity {
                 // It will then return the whole layout and functionality of the Tab_Vehicle_Spec page
                 case 0:
                     return new Tab_Vehicle_Spec();
+
                 // If the position is at the second tab i.e 1...
                 // It will then return the whole layout and functionality of the Tab_Vehicle page
                 case 1:
@@ -171,7 +179,7 @@ public class Tab_Main extends AppCompatActivity {
         @Override
         public int getCount() {
             // Returning the length of the fragments list so that it doesn't over extend and break
-            return fragments.length;
+            return 5;
         }
 
         // A simple function that gets the tabs position.

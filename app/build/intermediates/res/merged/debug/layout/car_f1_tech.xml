@@ -27,17 +27,6 @@ However soon the layouts will change to fit everything in a more efficient way
     ** android:textColor="@color/white" - This sets the colour of the text to white
     -->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="F1 Technology"
-        android:id="@+id/textView2"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="150dp"
-        android:textColor="@color/white"/>
-
     <!--
     Below is the button that takes the users back to the page that they were on before they clicked
     the button to open the new page
@@ -53,15 +42,11 @@ However soon the layouts will change to fit everything in a more efficient way
     ** android:textColor="@color/white" - This sets the colour of the text to white
     -->
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Back"
-        android:id="@+id/f1TechBkBtn"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="90dp"
-        android:background="@null"
-        android:textColor="@color/white"/>
+    <ImageView
+        android:layout_width="5000dp"
+        android:layout_height="5000dp"
+        android:id="@+id/TwoTabbed"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

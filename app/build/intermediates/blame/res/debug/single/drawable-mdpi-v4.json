@@ -20,10 +20,6 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_full_open_on_phone.png",
-        "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-mdpi\\common_full_open_on_phone.png"
-    },
-    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
