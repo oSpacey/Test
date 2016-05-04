@@ -32,6 +32,10 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
     },
     {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\place_holder_spec.jpg",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\place_holder_spec.jpg"
+    },
+    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -136,10 +140,6 @@
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\bg_big.jpg"
     },
     {
-        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\place_holder.jpg",
-        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\place_holder.jpg"
-    },
-    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -172,6 +172,10 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\speed_high.jpg",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\speed_high.jpg"
+    },
+    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -182,6 +186,10 @@
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spec_page__findoutmore.png",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\spec_page__findoutmore.png"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\down_arrow.jpg",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\down_arrow.jpg"
     },
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",

@@ -22,6 +22,8 @@ public class Vehicle_Specification extends Activity {
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.vehicle_specification);
 
         moreInfo = (ImageView) findViewById(R.id.findOutMore);

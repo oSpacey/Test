@@ -12,8 +12,16 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\place_holder_spec.jpg",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\place_holder_spec.jpg"
+    },
+    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_png.png",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\bg_png.png"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\down_arrow.jpg",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\down_arrow.jpg"
     },
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_jpg.jpg",
@@ -80,10 +88,6 @@
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\spec_page__findoutmore.png"
     },
     {
-        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\place_holder.jpg",
-        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\place_holder.jpg"
-    },
-    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -146,5 +150,9 @@
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\speed_high.jpg",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable\\speed_high.jpg"
     }
 ]

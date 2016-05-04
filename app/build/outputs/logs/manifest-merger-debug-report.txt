@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:13:1-295:12
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:13:1-296:12
 	xmlns:android
 		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:13:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:13:1-295:12
 		INJECTED from J:\Test\Test\app\src\main\AndroidManifest.xml
 		INJECTED from J:\Test\Test\app\src\main\AndroidManifest.xml
 application
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:35:5-294:19
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:35:5-295:19
 MERGED from [com.android.support:cardview-v7:23.1.1] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.0] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.3.0] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
@@ -35,149 +35,149 @@ MERGED from [com.android.support:support-v4:23.3.0] J:\Test\Test\app\build\inter
 	android:theme
 		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:40:9-65
 activity#com.example.id2013_03.startProject.Main.Vehicle_Specification
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:41:9-50:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:41:9-51:20
 	android:screenOrientation
 		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:43:13-50
 	android:name
 		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:42:13-89
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:45:13-49:29
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:48:17-77
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:48:27-74
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:49:27-74
 activity#com.example.id2013_03.startProject.Car_MoreInfo.FindOutMore
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:70:9-80:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:71:9-81:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:72:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:73:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:73:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:74:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:71:13-87
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:72:13-87
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:75:13-79:29
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:76:13-80:29
 category#android.intent.category.DEFAULT
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:78:17-76
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:79:17-76
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:78:27-73
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:79:27-73
 activity#com.example.id2013_03.startProject.Brochure.Brochure_ThankYouPage
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:96:9-100:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:97:9-101:20
 	android:theme
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:98:13-55
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:99:13-55
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:97:13-93
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:98:13-93
 activity#com.example.id2013_03.startProject.Login_Page.User_Login
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:106:9-115:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:107:9-116:20
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:108:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:109:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:107:13-84
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:108:13-84
 intent-filter#android.intent.action.MAIN+android.intent.catagory.DEFAULT
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:111:13-114:29
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:112:13-115:29
 category#android.intent.catagory.DEFAULT
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:113:17-76
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:114:17-76
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:113:27-73
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:114:27-73
 activity#com.example.id2013_03.startProject.Login_Page.User_PickCar
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:121:9-130:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:122:9-131:20
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:123:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:124:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:122:13-86
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:123:13-86
 intent-filter#android.intent.catagory.DEFAULT+com.example.id2013_03.mc_laren.User_Page
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:126:13-129:29
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:127:13-130:29
 action#com.example.id2013_03.mc_laren.User_Page
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:127:17-83
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:128:17-83
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:127:25-80
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:128:25-80
 activity#com.example.id2013_03.startProject.Car_Page.Car_Car_Features
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:139:9-150:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:140:9-151:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:140:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:141:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:141:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:142:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:139:19-94
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:140:19-94
 activity#com.example.id2013_03.startProject.Tabbed_Pages.Tab_Main
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:153:9-163:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:154:9-164:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:154:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:155:13-50
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:153:19-90
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:154:19-90
 activity#com.example.id2013_03.startProject.Exclusivity_Pages.Bespoke_Aesthetics
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:165:9-176:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:166:9-177:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:166:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:167:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:167:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:168:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:165:19-105
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:166:19-105
 activity#com.example.id2013_03.startProject.Exclusivity_Pages.Factory_Handover
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:178:9-189:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:179:9-190:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:179:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:180:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:180:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:181:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:178:19-103
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:179:19-103
 activity#com.example.id2013_03.startProject.Vehicle_Overview_Pages.Design
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:191:9-202:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:192:9-203:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:192:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:193:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:193:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:194:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:191:19-98
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:192:19-98
 activity#com.example.id2013_03.startProject.Vehicle_Overview_Pages.Media_Main
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:204:9-214:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:205:9-215:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:205:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:206:13-50
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:204:19-102
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:205:19-102
 activity#com.example.id2013_03.startProject.Car_Page.Car_F1_tech
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:223:9-232:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:224:9-233:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:224:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:225:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:225:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:226:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:223:19-89
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:224:19-89
 activity#com.example.id2013_03.startProject.Car_Page.Car_Options
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:240:9-249:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:241:9-250:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:241:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:242:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:242:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:243:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:240:19-89
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:241:19-89
 activity#com.example.id2013_03.startProject.Car_Page.Car_Special_Operations
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:257:9-266:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:258:9-267:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:258:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:259:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:259:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:260:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:257:19-100
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:258:19-100
 activity#com.example.id2013_03.startProject.Vehicle_Overview_Pages.FullImageActivity
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:272:9-281:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:273:9-282:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:273:13-50
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:274:13-50
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:274:13-37
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:275:13-37
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:272:19-109
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:273:19-109
 activity#com.example.id2013_03.startProject.Tabbed_Pages.Spec_Full_Image
-ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:283:9-292:20
+ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:284:9-293:20
 	android:screenOrientation
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:284:19-56
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:285:19-56
 	android:noHistory
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:285:19-43
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:286:19-43
 	android:name
-		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:283:19-97
+		ADDED from J:\Test\Test\app\src\main\AndroidManifest.xml:284:19-97
 uses-sdk
 INJECTED from J:\Test\Test\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:23.1.1] J:\Test\Test\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43

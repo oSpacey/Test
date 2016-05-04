@@ -41,6 +41,7 @@ out loading the main pages within its own class. This class is the Tab_Main clas
         <activity
             android:name="com.example.id2013_03.startProject.Main.Vehicle_Specification"
             android:screenOrientation="landscape"
+
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

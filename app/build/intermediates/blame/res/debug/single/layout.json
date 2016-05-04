@@ -100,6 +100,10 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabbed_vehicle_spec_page2.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\tabbed_vehicle_spec_page2.xml"
+    },
+    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -164,6 +168,10 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_lines.xml"
     },
     {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabbed_vehicle_spec_page1.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\tabbed_vehicle_spec_page1.xml"
+    },
+    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabbed_exclusivity.xml",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\tabbed_exclusivity.xml"
     },
@@ -176,6 +184,10 @@
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabbed_vehicle_specs_main.xml",
+        "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\tabbed_vehicle_specs_main.xml"
+    },
+    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
@@ -186,10 +198,6 @@
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\car_options.xml",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\car_options.xml"
-    },
-    {
-        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
-        "source": "J:\\Test\\Test\\app\\src\\main\\res\\layout\\test.xml"
     },
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vehicle_overview_media_images.xml",

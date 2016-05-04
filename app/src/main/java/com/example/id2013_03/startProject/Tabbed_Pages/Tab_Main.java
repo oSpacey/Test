@@ -1,6 +1,7 @@
 package com.example.id2013_03.startProject.Tabbed_Pages;
 
 // These are the functions that are imported to get the app working
+import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.support.design.widget.TabLayout;
@@ -9,11 +10,16 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.example.id2013_03.startProject.Main.Vehicle_Specification;
@@ -36,9 +42,12 @@ public class Tab_Main extends FragmentActivity {
     // This function is protected
     // This means that what happens here, nothing can be changed
     @Override
-    public void onCreate(Bundle savedInstanceState)
+    public void onCreate(final Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //getWindow().setFlags(WindowManager.LayoutParams.TYPE_KEYGUARD_DIALOG);
+
         setContentView(R.layout.vehicle_specification);
         // This is setting the view
         // The view is simply this one we are in now...
@@ -53,6 +62,8 @@ public class Tab_Main extends FragmentActivity {
         // that is stored within the ViewPager function on that page.
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
+
+
 
 
         // The ID for the McLaren logo
@@ -88,6 +99,7 @@ public class Tab_Main extends FragmentActivity {
 
 
 
+
         // These are the tabLayout functions
         // These just like the ViewPager functions get the information that is stored under each tab...
         // In this case it is simply just the text for now
@@ -109,6 +121,8 @@ public class Tab_Main extends FragmentActivity {
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
 
+
+
             }
 
             // this is a function for if the users go back to the same tab
@@ -116,6 +130,8 @@ public class Tab_Main extends FragmentActivity {
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+
+
             }
             // *** NOTE : ALL OF THE THREE FUNCTIONS ABOVE, IN THIS CASE ARE TO JUST GET THE POSITIONS,
             //            OF THE TABS THE IS SELECTED OR UNSELECTED. MORE CAN BE ADDED TO THESE FUNCTIONS.
@@ -129,7 +145,8 @@ public class Tab_Main extends FragmentActivity {
     // This is a private class that is used for the tabs...
     // This is a private class because it is nested within another class but
     // is not the main class function
-    private class CustomAdapter extends FragmentStatePagerAdapter {
+    private class CustomAdapter extends FragmentStatePagerAdapter{
+        Fragment fragment;
         // Creating a private string that is only for this class
         // This string stores the names of each of the tabs that I have named.
         // These tab names are then stored within the variable fragments
@@ -139,7 +156,11 @@ public class Tab_Main extends FragmentActivity {
         // This is just like the other functions that have been created
         public CustomAdapter(FragmentManager supportFragmentManager, Context applicationContext) {
             super(supportFragmentManager);
+
+
+
         }
+
 
         // This is a public class that gets the fragments and there position
         // This takes the names that were placed into the fragment string and uses that within here to display to the users
@@ -171,15 +192,18 @@ public class Tab_Main extends FragmentActivity {
                     return new Tab_Brochure();
                 default:
                     return null;
+
             }
         }
+
+
         // A Simple function that gets the length of the tabs
         // this is created and called upon within the script..
         // This gets all of the names that have been written and spaces them evenly
         @Override
         public int getCount() {
             // Returning the length of the fragments list so that it doesn't over extend and break
-            return 5;
+            return fragments.length;
         }
 
         // A simple function that gets the tabs position.
@@ -190,6 +214,9 @@ public class Tab_Main extends FragmentActivity {
             // Returning the position, allowing the slider to know which page to be under
             return fragments[position];
         }
+
+
     }
+
 
 }
