@@ -136,12 +136,12 @@
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\bg_big.jpg"
     },
     {
-        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\place_holder.jpg",
         "source": "J:\\Test\\Test\\app\\src\\main\\res\\drawable-hdpi\\place_holder.jpg"
+    },
+    {
+        "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "J:\\Test\\Test\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "J:\\Test\\Test\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
